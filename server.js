@@ -3,7 +3,8 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const port = process.env.PORT || 3001;
-
+console.log(process.env.PORT,"aaaaaa");
+// return false;
 const app = express();
 
 app.use(express.json());
